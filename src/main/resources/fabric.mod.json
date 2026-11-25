@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "donutdeck",
+	"version": "${version}",
+	"name": "DonutDeck",
+	"description": "A client-side DonutSMP economy terminal: market intelligence, a manual-confirm trade desk for bot and player counterparties, portfolio auto-invest planning, and a broadcast center. OpSec-safe by design: no custom payload channels, no brand changes, no telemetry.",
+	"authors": [
+		"DonutDeck"
+	],
+	"contact": {
+		"homepage": "https://donutsmp.net/",
+		"sources": "https://github.com/"
+	},
+	"license": "MIT",
+	"icon": "assets/donutdeck/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.donutdeck.DonutDeckClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

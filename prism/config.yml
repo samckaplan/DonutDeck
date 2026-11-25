@@ -1,0 +1,20 @@
+# DonutDeck Prism Launcher Configuration
+# Place this file in your .minecraft/mods folder alongside the mod jar
+
+modId: donutdeck
+version: 1.0.0
+name: DonutDeck
+author: Auto-Generated
+
+# Installation instructions for Prism Launcher:
+# 1) Build the mod jar (see scripts/build.sh or build.gradle.kts)
+# 2) Copy the resulting "DonutDeck-1.0.0-all.jar" to your mods folder
+# 3) In Prism Launcher, create a new instance with:
+#    - Minecraft version: 1.21.11
+#    - Loader: Fabric
+#    - Mods: Add "DonutDeck-1.0.0-all.jar"
+
+# Custom settings (optional):
+websiteEndpoint: https://your-external-website.com/api/donutdeck/broadcast
+broadcastEnabled: true
+privacyMode: true  # Respects in-game OpSec setting
